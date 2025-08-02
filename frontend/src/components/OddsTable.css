@@ -1,0 +1,53 @@
+.odds-table-container {
+  margin: 2rem auto;
+  padding: 0 2rem;
+  max-width: 1200px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 1rem;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 500;
+  color: #343a40;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+thead th {
+  background-color: #343a40;
+  color: white;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.clickable {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clickable:hover {
+  background-color: #f1f1f1;
+}
